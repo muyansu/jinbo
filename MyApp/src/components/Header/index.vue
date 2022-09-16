@@ -5,18 +5,18 @@
       <div class="top">
         <div class="container">
           <div class="loginList">
-            <p>尚品汇欢迎您！</p> 
+            <p>电商平台欢迎您！</p> 
             <!-- 没有登录：显示登录与注册 -->
             <!--  <p v-if="!$store.state.user.nickName"> -->
+              <p>
               <span>请</span> 
-              <a href="###">登录</a>
               <!-- 
                 声明式导航,当然你也可以使用编程式导航,因为不管是那个导航，都可以实现路由跳转，
                 但是最后为什么选择声明式导航，没有任何业务、逻辑
                -->
-              <!-- <router-link to="/login">登录</router-link>
+              <router-link to="/login">登录</router-link>
               <router-link class="register" to="/register">注册</router-link>
-            </p> -->
+            </p>
             <!-- 如果登录显示的是用户名字与退出登录 -->
             <!-- <p v-else>
               <a>{{$store.state.user.nickName}}</a>
@@ -26,10 +26,10 @@
           <div class="typeList">
             <router-link to="/center">我的订单</router-link>
             <router-link to="/shopcart">我的购物车</router-link>
-            <a href="###">我的尚品汇</a>
-            <a href="###">尚品汇会员</a>
+            <a href="###">我的电商平台</a>
+            <a href="###">电商平台会员</a>
             <a href="###">企业采购</a>
-            <a href="###">关注尚品汇</a>
+            <a href="###">关注电商平台</a>
             <a href="###">合作招商</a>
             <a href="###">商家后台</a>
           </div>

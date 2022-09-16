@@ -61,6 +61,12 @@ src文件夹（程序员源代码文件夹）
     非路由组件：
     Header【首页，搜索页】
     footer【首页，搜索页】
+    router:路由之间跳转
+    route：路由传参 query,param
+
+    路由跳转方式：
+    1. 声明式导航  router-link （编程式导航都能做）
+    2.编程式导航 push  replace 
 
     
 
